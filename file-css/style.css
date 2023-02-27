@@ -46,6 +46,7 @@ a {
     color: white;
     padding:10px;
     border: 1px solid blue;
+    
 }
 .logo-2 {
     text-align: center;
@@ -131,6 +132,7 @@ h2 {
     width: 100%;
     text-align:center;
     border: 1px solid lightblue;
+    padding: 10px;
 
 }
 .involucro {
@@ -156,4 +158,32 @@ u {
 }
 .fa-check {
     color: blue;
+}
+/* quarta sezione */
+.section-four {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    margin-top: 450px;
+    border: 1px solid lightblue;
+}
+.quattro {
+    width: 100%;
+    height: 45px;
+    border: 1px solid lightblue;
+    text-align: center;
+    padding:10px;
+
+}
+.margin-right-2 {
+    margin-left: 850px;
+}
+.written h2,
+h3,
+p  {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.written p {
+    width: 300px;
 }
