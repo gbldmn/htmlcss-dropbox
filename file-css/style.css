@@ -3,10 +3,41 @@
     padding: 0;
     box-sizing: border-box;    
 }
+/* creazione header */
 
 header {
     height: 50px;
     width: 100%;
-    border: 2px solid red;
+    position: sticky;
 }
-.flex
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    width: 100%;
+}
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo:hover {
+    border-bottom: 2px solid black;
+}
+.button-blue {
+    background-color: blue;
+    color: white;
+    padding:10px;
+}
+.logo-2 {
+    text-align: center;
+    margin-top: 10px;
+}
+.button-blue:hover {
+    background-color: lightskyblue;
+}
+/* fine header */
