@@ -179,11 +179,40 @@ u {
     margin-left: 850px;
 }
 .written h2,
-h3,
-p  {
+h3
+  {
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .written p {
-    width: 300px;
+    width: 450px;
+}
+/* quinta sezione */
+.section-five {
+    width: 70%;
+    height: 599px;
+    margin: auto;
+    margin-top: 150px;
+}
+.foto {
+    width: 60%;
+    height: 599px;
+}
+.foto-2 {
+    width: 40%;
+    height: 599px;
+}
+.foto-2 h2,
+p {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.button-white {
+    background-color: white;
+    color: white;
+    padding:10px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+    
 }
