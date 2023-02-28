@@ -10,6 +10,7 @@ header {
     width: 100%;
     display: flex;
     position: sticky;
+    z-index: 99999999;
     top: 0;
     background-color: white;
 }
@@ -151,7 +152,7 @@ h2 {
     margin-bottom: 40px;
     color: lightgrey;
 }
-ul li {
+div.involucro ul li {
     list-style: none;
      margin-top: 25px;
      display: inline-block;
@@ -208,8 +209,11 @@ h3
     width: 40%;
     height: 599px;
 }
-.foto-2 h2,
-p {
+.foto-2 h2 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.paragrafo {
     margin-top: 50px;
     margin-left: 40px;
 }
@@ -221,12 +225,15 @@ p {
     margin-left: 40px;
     margin-top: 10px;
 }
- /* section-sex */
+ /* section-six */
 .section-six {
     width: 70%;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 20px;
+}
+.text {
+    margin-bottom: 50px;
 }
 /* section-seven */
 .section-seven {
@@ -249,6 +256,9 @@ p {
 }
 .section-eigth p {
    margin-left: 23px;
+}
+.paragrafo-2 {
+    margin-top: 45px;
 }
 /* section-nine */
 .section-nine {
@@ -332,10 +342,71 @@ p {
     top:70px;
     left:950px;
 }
+.absolute h2 {
+    color: rgb(93, 94, 97);
+}
 .button-white-2 {
     border-color: white;
     color: black;
     padding:10px;
     margin-left: 40px;
     margin-top: 10px;
+}
+/* undicesima sezione */
+.section-eleven {
+    width: 70%;
+    margin: auto;
+    height: 650px;
+}
+.autonomy {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgb(143, 138, 138);
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.center-1 {
+   margin-top: 20px;
+}
+.strong {
+    margin-top: 35px;
+}
+.absolute-3 {
+    position: absolute;
+    left: 98%;
+    bottom: 44%;
+}
+/* dodicesima sezione*/
+.section-twelve {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.padre {
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+}
+.figli {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+div.figli ul li {
+    list-style: none;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+div.figli h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+div.figli a {
+    text-decoration: none;
+    color: rgb(218, 207, 207);
 }
