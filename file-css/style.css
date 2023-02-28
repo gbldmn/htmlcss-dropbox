@@ -162,6 +162,7 @@ u {
 }
 .involucro h3 {
     margin-top: 120px;
+
 }
 .fa-check {
     color: blue;
@@ -383,18 +384,18 @@ h3
 /* dodicesima sezione*/
 .section-twelve {
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: black;
 }
 .padre {
     width: 80%;
-    height: 400px;
+    height: 300px;
     background-color: white;
     margin: auto;
 }
 .figli {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: black;
 }
 div.figli ul li {
@@ -409,4 +410,27 @@ div.figli h2 {
 div.figli a {
     text-decoration: none;
     color: rgb(218, 207, 207);
+}
+/* footer */
+.finale {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.finale-2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+}
+div.finale-2  {
+    color: white;
+    padding: 3px;
+    border-top: 1px solid white;
+}
+div.finale-2 a {
+    color: white;
+}
+h2, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
