@@ -309,3 +309,33 @@ p {
 .white {
     color: white;
 }
+/* section-ten */
+.section-ten {
+    background-color: rgb(211, 219, 232);
+    width: 100%;
+    height: 300px;
+}
+.type {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}   
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 80px;
+}
+.absolute-2 {
+    position: absolute;
+    top:70px;
+    left:950px;
+}
+.button-white-2 {
+    border-color: white;
+    color: black;
+    padding:10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
