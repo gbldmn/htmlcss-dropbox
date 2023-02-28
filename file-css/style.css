@@ -16,6 +16,7 @@ header {
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .margin-left {
@@ -34,19 +35,19 @@ header {
     text-align: center;
     margin-top: 10px;
 }
-a {
+ header a {
     text-decoration: none;
-    color: black;
+    color: lightseagreen;
 }
 .logo:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightseagreen;
 }
 .button-blue {
     background-color: blue;
     color: white;
     padding:10px;
     border: 1px solid blue;
-    
+
 }
 .logo-2 {
     text-align: center;
@@ -93,6 +94,7 @@ a {
 .arrow {
 
     font-size: 50px;
+
 }
 /* seconda sezione */
 .section-two {
@@ -116,15 +118,19 @@ h2 {
     flex-direction: row;
     margin:auto;
     width: 70%;
-    height: 500px;
+    height: 600px;
     column-gap: 10px;
 
 }
 .box {
     border: 1px solid lightblue;
     width: calc(100%/ 3);
-    height: 900px;
-    
+    height: 1000px;
+
+}
+.involucro p {
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 .center {
@@ -149,7 +155,7 @@ ul li {
     list-style: none;
      margin-top: 25px;
      display: inline-block;
-}  
+}
 u {
     color: blue;
 }
@@ -214,5 +220,92 @@ p {
     color: black;
     margin-left: 40px;
     margin-top: 10px;
+}
+ /* section-sex */
+.section-six {
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+/* section-seven */
+.section-seven {
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+}
+.flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.up {
+    width: calc(100%/ 3);
+}
+/* section-eight */
+.section-eigth {
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+}
+.section-eigth p {
+   margin-left: 23px;
+}
+/* section-nine */
+.section-nine {
+    height: 600px;
+}    
+.primo, .secondo, .terzo {
+    width: calc(100%/ 3);
+    height: 100%;
+}
+.colori {
+
+    width: calc(100%/ 2);
+    text-align: center;
+
     
+}
+.flex-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-1 {
+  border: 10px solid beige;
+   background-color: bisque;
+}
+
+
+.top-2 {
+    background-color: brown;
+}  
+.florida {
+   margin-left: 20px; 
+}
+.top-3 {
+    background-color: rgb(113, 113, 217);
+}
+.top-4 {
+    background-color: red;
+}
+.topps {
+    margin-left: 65px;
+}
+.designit {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.secondo {
+    background-color: rgb(243, 236, 236);
+}
+.top-6 {
+    background-color: rgb(211, 219, 232);
+}
+.top-7 {
+    background-color: darkblue;
+}
+.top-8 {
+    background-color: lime;
+}
+.white {
+    color: white;
 }
